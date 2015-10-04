@@ -481,3 +481,22 @@ header h1 {
     transform: translateX(0);
   }
 }
+@media only screen and (min-width: 1170px) {
+  .cd-timeline-block.cd-timeline-combined .cd-timeline-content {
+    width: 100%;
+    border: 3px solid #d7e4ed;
+    box-shadow: 0 0 0;
+    float: none
+  }
+  .cd-timeline-block.cd-timeline-combined .cd-timeline-content::before {
+    border: 0 solid transparent;
+    border-right: 0 solid white;
+  }
+  .cd-timeline-block.cd-timeline-combined .cd-timeline-img {
+    margin: -30px;
+  }
+  .cd-timeline-block.cd-timeline-combined .cd-timeline-content .cd-date {
+    position: initial;
+    text-align: center;
+  }
+}
